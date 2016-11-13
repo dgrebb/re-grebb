@@ -1,7 +1,8 @@
-/*------------- import sass variables ----------------*/
+/*------------- import sass base config files ----------------*/
 
+@import '_helpers';
 @import '_variables';
 
 /*------------- import screen-specific styles ----------------*/
-@import '_screen-large';
-@import '_screen-small';
+@import 'screen-large';
+@import 'screen-small';
