@@ -6,7 +6,7 @@
   "scripts": {
     "build:css": "node-sass --include-path styles/sass --output-style compressed styles/sass/main.scss styles/style.css",
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "watch": "browser-sync start --server --files 'styles/style.css' 'index.html'",
+    "watch": "browser-sync start --server --files 'index.html' 'styles/style.css' 'js/scripts.js'",
     "dev": "concurrently --raw \"npm run watch:css\" \"npm run watch\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
