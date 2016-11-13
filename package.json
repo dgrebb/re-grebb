@@ -1,0 +1,21 @@
+{
+  "name": "responsive",
+  "version": "1.0.0",
+  "description": "** OVERVIEW **",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass --include-path styles/sass --output-style compressed styles/sass/main.scss styles/style.css",
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "watch": "browser-sync start --server --files 'styles/style.css'",
+    "dev": "concurrently --raw \"npm run watch:css\" \"npm run watch\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "concurrently": "^3.1.0",
+    "node-sass": "^3.11.3",
+    "nodemon": "^1.11.0"
+  }
+}
