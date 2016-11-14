@@ -1,56 +1,5 @@
 /* Small screens ----------------------------------*/
-@media screen and (max-width: 920px) {
-    body {
-        background-color: $color--white;
-        margin: 20px;
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-    .res-nav {
-        display: block;
-        margin-right: 20px;
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: 2;
-
-        &-activator {
-            float: right;
-            position: relative;
-            z-index: 2;
-        }
-
-        &-list {
-            display: none;
-
-            &--active {
-                display: block;
-                position: absolute;
-            }
-        }
-    }
-
-    .page-wrap {
-        padding: 0;
-        position: relative;
-        width: 100%;
-
-        h1 {
-            display: inline-block;
-            font-size: 2em;
-            margin-bottom: 1em;
-        }
-    }
-
-    .main-story {
-        img {
-            min-width: 100%;
-        }
-    }
+@media screen and (max-width: 620px) {
 
     .story-intro {
 
@@ -59,4 +8,5 @@
             margin-bottom: .5em;
         }
     }
+
 }
