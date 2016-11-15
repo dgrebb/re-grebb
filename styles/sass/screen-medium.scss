@@ -28,6 +28,20 @@
 
         &-list {
             display: none;
+            top: 3em;
+            width: 100%;
+
+            li {
+                border: 0;
+                line-height: 100%;
+                width: 100%;
+            }
+
+            a {
+                background-color: $color--gray;
+                color: $color--black;
+                text-align: left;
+            }
 
             &--active {
                 display: block;
