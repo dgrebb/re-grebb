@@ -22,3 +22,7 @@ aside {
 header, article, section, .module {
 	padding: 1rem;
 }
+section,
+aside {
+	box-sizing: border-box;
+}
