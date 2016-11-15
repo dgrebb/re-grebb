@@ -5,7 +5,7 @@ This is a responsive design demo.
 ## Development Environment
 
 * Clone this repo
-* `cd re-grebb`
+* `cd fe-tests/responsive`
 * `npm install`
 * `npm run dev`
 
